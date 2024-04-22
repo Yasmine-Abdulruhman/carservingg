@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Carserving</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            color: #333;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #da042a;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        tr:hover {
+            background-color: #ddd;
+        }
+        
+        td span {
+            display: block;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__bar">
+                <div class="logo nav__logo">
+                    <b><p style="font-size: 20px; color: whitesmoke; ">CARSERVING</p></b>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="price.html">PRICE</a></li>
+                <li><a href="member.html">GROUP</a></li>
+                <a href="contact.html"> <button class="btn">Contact Us</button></a>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+
+
+    <section class="service" id="service">
+        <div class="section__container service__container">
+            <p class="section__subheader">WHY CHOOSE US</p>
+            <h2 class="section__header">Great Car Service</h2>
+            <p class="section__description">
+                Trust us to keep your automobile running smoothly and reliably.
+            </p>
+            <div class="service__grid">
+                <div class="service__card">
+                    <img src="assets/service-1.jpg" alt="service" />
+                    <h4>Aligned Wheel</h4>
+                    <p>
+                        Experience smoother rides and extended tire life with our wheel alignment service.
+                    </p>
+                </div>
+                <div class="service__card">
+                    <img src="assets/service-2.jpg" alt="service" />
+                    <h4>Electrical system</h4>
+                    <p>
+                        Elevate car's electrical system to peak performance with our specialized expertise.
+                    </p>
+                </div>
+                <div class="service__card">
+                    <img src="assets/service-3.jpg" alt="service" />
+                    <h4>System Service</h4>
+                    <p>
+                        We utilize cutting-edge diagnostics and techniques to ensure optimal condition.
+                    </p>
+                </div>
+                <div class="service__card">
+                    <img src="assets/service-4.jpg" alt="service" />
+                    <h4>Engine Diagnostics</h4>
+                    <p>
+                        Unlock the secrets of your car's performance with state-of-the-art diagnostic services.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <h1>Car Servicing Packages</h1>
+        <table>
+            <tr>
+                <th>Package</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Basic</td>
+                <td>$50</td>
+                <td>Oil change, tire rotation</td>
+            </tr>
+            <tr>
+                <td>Standard</td>
+                <td>$100</td>
+                <td>Oil change, tire rotation, filter replacement</td>
+            </tr>
+            <tr>
+                <td>Premium</td>
+                <td>$150</td>
+                <td>Oil change, tire rotation, filter replacement, fluid top-up</td>
+            </tr>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
